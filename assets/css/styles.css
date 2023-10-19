@@ -25,20 +25,114 @@
     font-style: italic;
 }
 
+
+/* TYPOGRAPHIES */
 h1{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
+    text-transform: uppercase;
+    font-size: 2em;
 }
 h2{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    font-size: 1em;
 }
-p{
-    font-family: 'Raleway', sans-serif;
-    font-style: italic;
+h3{
+    background: #dbc2a4;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 5px 20px;
 }
 
+/* BLOCKS ------------------------------------------------------------- */
 body{
     width:1160px;
     margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    font-size:1em;
+}
+/* HEADER ------------------------------------------------------------- */
+header{
+    background: #782221;
+    color: white;
+}
+header section{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 2px white;
+}
+header address{
+    background: #2c1d27;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size:1em;
+}
+/* MAIN ------------------------------------------------------------- */
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    border-right: 1px solid #2c1d27;
+}
+main aside{
+    background: #782221;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 0 50px 0 0;
+}
+main aside p,
+main aside ul{
+    color: white;
+}
+main aside p{
+    box-sizing: border-box;
+    padding-left: 20px;
+    text-indent: 50px;
+    text-align: justify;
+}
+main div#jobDetails{
+    width: 70%;
+    box-sizing: border-box;
+    padding: 0 20px 20px 50px;
+}
+main section{
+    margin-bottom: 50px;;
+}
+main div#jobDetails h3{
+    border-left:10px solid #782221;
+}
+/* FOOTER ------------------------------------------------------------- */
+footer{
+    background: #782221;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer div img {
+    width: 40px;
+    height: auto;
+    margin: 0 10px 10px 10px;
 }
