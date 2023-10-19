@@ -7,6 +7,128 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    
+    <head>
+        <!-- My identity : photo / name / fonction -->
+        <section itemscope itemtype="https://schema.org/Person">
+            <img itemprop="image" src="" alt="" />
+            <h1 itemprop="name">Alexandre Dupré</h1>
+            <h2 itemprop="jobTitle">Développeur WEB Front & Back end</h2>
+        </section>
+        <address itemscope itemtype="https://schema.org/Person">
+            <p itemprop="address">
+                123 chemin du bois joli <br>
+                49000 Angers
+            </p>
+            <p itemprop="email">
+                email@domaine.com
+            </p>
+            <p itemprop="telephone">
+                06 12 34 56 78
+            </p>
+        </address>
+    </head>
+    <main>
+        <!-- Job Details -->
+        <section itemscope itemtype="https://schema.org/Person">
+
+            <!-- Experience -->
+            <section itemprop="hasOccupation">
+
+                <h3>Expériences professionnelles</h3>
+
+                <div itemscope itemtype="https://schema.org/Occupation">
+
+                    <h4 itemprop="name">Intitulé du poste chez nom de l'entreprise</h4>
+                    <p itemscope itemtype="https://schema.org/Role">
+                        Du
+                            <time itemprop="startDate" datetime="2012-02-02">02 février 2012</time> 
+                        au
+                            <time itemprop="startDate" datetime="2012-05-15">15 mai 2012</time> 
+                    </p>
+                    <ul itemprop="responsibilities">
+                        <li>Mission 01</li>
+                        <li>Mission 01</li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <!-- Diploma -->
+            <section itemscope itemtype="https://schema.org/EducationalOccupationalProgram">
+
+                <h3>Diplômes / Formations</h3>
+
+                <div itemprop="educationalCredentialAwarded">
+                    <h4 itemprop="name">Intitulé du diplome/formation</h4>
+                    <p>
+                        Du
+                            <time itemprop="startDate" datetime="2012-02-02">02 février 2012</time> 
+                        au
+                            <time itemprop="startDate" datetime="2012-05-15">15 mai 2012</time> 
+                    </p>
+                    <div itemscope itemtype="https://schema.org/EducationalOrganization">
+                        <p itemprop="name">Nom de l'école</p>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <!-- Skills -->
+            <section itemscope itemtype="https://schema.org/Occupation">
+
+                <h3>Compétences</h3>
+
+                <ul itemprop="skills">
+                    <li>1</li>
+                    <li>1</li>
+                </ul>
+
+            </section>
+        </section>
+        <!-- Personnal Details -->
+        <aside>
+            <!-- About -->
+            <section itemscope itemtype="https://schema.org/Person">
+
+                <h3>À propos</h3>
+
+                <p itemprop="description">
+
+                </p>
+
+            </section>
+            <!-- Languages -->
+            <section itemscope itemtype="https://schema.org/Person">
+
+                <h3>Langues parlées</h3>
+
+                <ul itemprop="knowsLanguage">
+                    <li>1</li>
+                    <li>1</li>
+                </ul>
+
+            </section>
+            <!-- Hobbies -->
+            <section>
+
+                <h3>Centres d'intérêts</h3>
+
+                <ul itemprop="knowsAbout">
+                    <li>1</li>
+                    <li>1</li>
+                </ul>
+
+            </section>
+        </aside>
+    </main>
+    <footer>   
+        <!-- Social medias -->
+        <section itemscope itemtype="https://schema.org/Thing">
+            <a itemprop="url" href="" target="_blank">Lien Social</a>
+        </section>
+        <!-- Copyright -->
+        <p>Copyright</p>
+    </footer>
 </body>
 </html>
