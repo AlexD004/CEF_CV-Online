@@ -45,6 +45,10 @@ h3{
     font-size: 1.2em;
     padding: 5px 20px;
 }
+a{
+    color:white;
+    text-decoration: none;
+}
 
 /* BLOCKS ------------------------------------------------------------- */
 body{
@@ -70,6 +74,7 @@ header img{
     height: auto;
     border-radius: 50%;
     box-shadow: 0 0 10px 2px white;
+    cursor:zoom-in;
 }
 header address{
     background: #2c1d27;
@@ -111,6 +116,9 @@ main div#jobDetails{
 }
 main section{
     margin-bottom: 50px;;
+}
+main section div:hover {
+    border-right: 5px solid #782221;
 }
 main div#jobDetails h3{
     border-left:10px solid #782221;
