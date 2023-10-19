@@ -16,20 +16,24 @@
     <header>
         <!-- My identity : photo / name / fonction -->
         <section itemscope itemtype="https://schema.org/Person">
-            <img itemprop="image" src="assets/img/portrait-Alex-Dupre.jpg" alt="Portrait de face d'Alexandre Dupré">
+            <a href="assets/img/portrait-Alex-Dupre.jpg">
+                <img itemprop="image" src="assets/img/portrait-Alex-Dupre.jpg" alt="Portrait de face d'Alexandre Dupré">
+            </a>
             <h1 itemprop="name">Alexandre Dupré</h1>
             <h2 itemprop="jobTitle">Développeur WEB Front & Back end</h2>
         </section>
         <address itemscope itemtype="https://schema.org/Person">
             <p itemprop="address">
-                123 chemin du bois joli <br>
-                49000 Angers
+                <a href="https://www.google.com/maps/place/44+Rue+de+l'Aiguillerie,+49100+Angers/@47.4707908,-0.5544786,18z/data=!3m1!4b1!4m5!3m4!1s0x480878c1c23a2f2d:0xd72c0ef8b6c27804!8m2!3d47.4707895!4d-0.5535682?entry=ttu" target="_blank">
+                    44 Rue de l'Aiguillerie <br>
+                    49000 Angers
+                 </a>
             </p>
             <p itemprop="email">
-                email@domaine.com
+                <a href="mailto:email@domaine.com" >email@domaine.com</a>
             </p>
             <p itemprop="telephone">
-                06 12 34 56 78
+                <a href="tel:0612345678" >0612345678</a>
             </p>
         </address>
     </header>
@@ -128,13 +132,15 @@
 
                 <h3>Compétences</h3>
 
-                <ul itemprop="skills">
-                    <li>HTML 5 - Expert</li>
-                    <li>CSS 3 - Expert</li>
-                    <li>Javascript - Débutant</li>
-                    <li>PHP - Débutant</li>
-                    <li>GitHub - Débutant</li>
-                </ul>
+                <div>
+                    <ul itemprop="skills">
+                        <li>HTML 5 - Expert</li>
+                        <li>CSS 3 - Expert</li>
+                        <li>Javascript - Débutant</li>
+                        <li>PHP - Débutant</li>
+                        <li>GitHub - Débutant</li>
+                    </ul>
+               </div>
 
             </section>
         </div>
