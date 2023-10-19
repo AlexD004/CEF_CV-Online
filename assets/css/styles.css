@@ -49,6 +49,9 @@ a{
     color:white;
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
 
 /* BLOCKS ------------------------------------------------------------- */
 body{
@@ -143,4 +146,7 @@ footer div img {
     width: 40px;
     height: auto;
     margin: 0 10px 10px 10px;
+}
+footer div img:hover {
+    opacity: .4;
 }
