@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex"><!-- Pas réellement en ligne donc pas utile dans le cadre de l'exercice, mais à mettre en index dans le "vrai" WEB -->
+    <meta name="description" content="Un CV en ligne créé spécialement pour mon devoir de fin de chapitre dans le cadre de ma formation de développeur WEB front-end et back-end avec le CEF.">
+
     <title>Mon CV en ligne</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
     <link rel="stylesheet" href="assets/css/styles.css">
+    
 </head>
 <body>
     <head>
         <!-- My identity : photo / name / fonction -->
         <section itemscope itemtype="https://schema.org/Person">
-            <img itemprop="image" src="" alt="" />
+            <img itemprop="image" src="assets/img/portrait-Alex-Dupre.jpg" alt="Portrait de face d'Alexandre Dupré" />
             <h1 itemprop="name">Alexandre Dupré</h1>
             <h2 itemprop="jobTitle">Développeur WEB Front & Back end</h2>
         </section>
@@ -38,16 +44,35 @@
 
                 <div itemscope itemtype="https://schema.org/Occupation">
 
-                    <h4 itemprop="name">Intitulé du poste chez nom de l'entreprise</h4>
+                    <h4 itemprop="name">Intégrateur, Motion Designer, Directeur Artistique Freelance</h4>
                     <p itemscope itemtype="https://schema.org/Role">
-                        Du
-                            <time itemprop="startDate" datetime="2012-02-02">02 février 2012</time> 
-                        au
-                            <time itemprop="startDate" datetime="2012-05-15">15 mai 2012</time> 
+                        Depuis
+                            <time itemprop="startDate" datetime="2012-02-02">Octobre 2012</time> 
                     </p>
                     <ul itemprop="responsibilities">
-                        <li>Mission 01</li>
-                        <li>Mission 01</li>
+                        <li>Septembre 2023 : Catalogue Commercial Anti-mousse</li>
+                        <li>Aout 2023 : Motion Design DFCI</li>
+                        <li>Juillet 2023 : Site Vitrine Formations</li>
+                        <li>Juin 2023 : Génériques vidéos froamtion</li>
+                        <li>Etc...</li>
+                    </ul>
+                </div>
+
+                <div itemscope itemtype="https://schema.org/Occupation">
+
+                    <h4 itemprop="name">Intégrateur et Motion Designer chez Mediapilote</h4>
+                    <p itemscope itemtype="https://schema.org/Role">
+                        De
+                            <time itemprop="startDate" datetime="2015-06-01">Juin 2015</time> 
+                        à
+                            <time itemprop="endDate" datetime="2021-01-01">Janvier 2021</time> 
+                    </p>
+                    <ul itemprop="responsibilities">
+                        <li>Maquetter des sites vitrines et des emailings</li>
+                        <li>Intégrer des sites vitrines sur Wordpress et E-majine</li>
+                        <li>Apporter des ajustements à des sites existants</li>
+                        <li>Créer des cahiers des charges et des storyboards</li>
+                        <li>Animer et exporter des vidéos</li>
                     </ul>
                 </div>
 
@@ -59,15 +84,39 @@
                 <h3>Diplômes / Formations</h3>
 
                 <div itemprop="educationalCredentialAwarded">
-                    <h4 itemprop="name">Intitulé du diplome/formation</h4>
+                    <h4 itemprop="name"> Directeur de Création online et offline</h4>
                     <p>
-                        Du
-                            <time itemprop="startDate" datetime="2012-02-02">02 février 2012</time> 
-                        au
-                            <time itemprop="startDate" datetime="2012-05-15">15 mai 2012</time> 
+                        De
+                            <time itemprop="startDate" datetime="2009-09-01">Septembre 2009</time> 
+                        à
+                            <time itemprop="endDate" datetime="2014-07-01">Juillet 2014</time> 
                     </p>
                     <div itemscope itemtype="https://schema.org/EducationalOrganization">
-                        <p itemprop="name">Nom de l'école</p>
+                        <p itemprop="name">e-artsup</p>
+                    </div>
+                </div>
+
+                <div itemprop="educationalCredentialAwarded">
+                    <h4 itemprop="name"> Certificat d'entrepreneuriat</h4>
+                    <p>
+                        De
+                            <time itemprop="startDate" datetime="2014-09-01">Septembre 2014</time> 
+                        à
+                            <time itemprop="endDate" datetime="2015-01-01">Janvier 2015</time> 
+                    </p>
+                    <div itemscope itemtype="https://schema.org/EducationalOrganization">
+                        <p itemprop="name">ESCP Europe</p>
+                    </div>
+                </div>
+
+                <div itemprop="educationalCredentialAwarded">
+                    <h4 itemprop="name"> Certificat Développeur WEB Front & Back-end</h4>
+                    <p>
+                        Depuis
+                            <time itemprop="startDate" datetime="2023-09-01">Septembre 2023</time> 
+                    </p>
+                    <div itemscope itemtype="https://schema.org/EducationalOrganization">
+                        <p itemprop="name">CEF</p>
                     </div>
                 </div>
 
@@ -80,8 +129,11 @@
                 <h3>Compétences</h3>
 
                 <ul itemprop="skills">
-                    <li>1</li>
-                    <li>1</li>
+                    <li>HTML 5 - Expert</li>
+                    <li>CSS 3 - Expert</li>
+                    <li>Javascript - Débutant</li>
+                    <li>PHP - Débutant</li>
+                    <li>GitHub - Débutant</li>
                 </ul>
 
             </section>
@@ -94,6 +146,10 @@
                 <h3>À propos</h3>
 
                 <p itemprop="description">
+                    Je suis passionné par le graphisme depuis bien longtemps.
+                    Les textes, les couleurs, les logos... composent mon quotidien depuis maintenant plus de 10 ans !
+                    Motion Designer avant tout, animer et rendre vivant des éléments graphiques me fascine.
+                    Plus récemment, j'ai (re)découvert le monde du WEB. Faire des sites fait aussi parti de mon métier et j'ai envie aujourd'hui d'explorer cette facette de l'univers graphique qui nous entoure.
 
                 </p>
 
@@ -104,8 +160,10 @@
                 <h3>Langues parlées</h3>
 
                 <ul itemprop="knowsLanguage">
-                    <li>1</li>
-                    <li>1</li>
+                    <li>Français - langue maternelle</li>
+                    <li>Anglais - Intermédiaire</li>
+                    <li>Italien - Intermédiaire</li>
+                    <li>Espagnol - Notions scolaires</li>
                 </ul>
 
             </section>
@@ -115,8 +173,9 @@
                 <h3>Centres d'intérêts</h3>
 
                 <ul itemprop="knowsAbout">
-                    <li>1</li>
-                    <li>1</li>
+                    <li>Cinéma</li>
+                    <li>Lecture</li>
+                    <li>Dessin</li>
                 </ul>
 
             </section>
@@ -125,10 +184,18 @@
     <footer>   
         <!-- Social medias -->
         <section itemscope itemtype="https://schema.org/Thing">
-            <a itemprop="url" href="" target="_blank">Lien Social</a>
+            <a itemprop="url" href="https://www.linkedin.com/in/alexdupre-graphoreme/" target="_blank">
+                <img src="assets/img/linkedin.png" alt="Logo de Linkedin" />
+            </a>
+            <a itemprop="url" href="https://twitter.com/?lang=fr" target="_blank">
+                <img src="assets/img/twitter.png" alt="Logo de Twitter" />
+            </a>
+            <a itemprop="url" href="https://github.com/AlexD004" target="_blank">
+                <img src="assets/img/github.png" alt="Logo de GitHub" />
+            </a>
         </section>
-        <!-- Copyright -->
-        <p>Copyright</p>
+        <!-- Infos -->
+        <p>Dernière mise à jour le <time datetime="2023-10-19">19 octobre 2023</time></p>
     </footer>
 </body>
 </html>
