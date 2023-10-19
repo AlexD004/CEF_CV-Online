@@ -13,10 +13,10 @@
     
 </head>
 <body>
-    <head>
+    <header>
         <!-- My identity : photo / name / fonction -->
         <section itemscope itemtype="https://schema.org/Person">
-            <img itemprop="image" src="assets/img/portrait-Alex-Dupre.jpg" alt="Portrait de face d'Alexandre Dupré" />
+            <img itemprop="image" src="assets/img/portrait-Alex-Dupre.jpg" alt="Portrait de face d'Alexandre Dupré">
             <h1 itemprop="name">Alexandre Dupré</h1>
             <h2 itemprop="jobTitle">Développeur WEB Front & Back end</h2>
         </section>
@@ -32,10 +32,10 @@
                 06 12 34 56 78
             </p>
         </address>
-    </head>
+    </header>
     <main>
         <!-- Job Details -->
-        <section itemscope itemtype="https://schema.org/Person">
+        <div id="jobDetails" itemscope itemtype="https://schema.org/Person">
 
             <!-- Experience -->
             <section itemprop="hasOccupation">
@@ -137,7 +137,7 @@
                 </ul>
 
             </section>
-        </section>
+        </div>
         <!-- Personnal Details -->
         <aside>
             <!-- About -->
@@ -172,7 +172,7 @@
 
                 <h3>Centres d'intérêts</h3>
 
-                <ul itemprop="knowsAbout">
+                <ul>
                     <li>Cinéma</li>
                     <li>Lecture</li>
                     <li>Dessin</li>
@@ -183,19 +183,19 @@
     </main>
     <footer>   
         <!-- Social medias -->
-        <section itemscope itemtype="https://schema.org/Thing">
+        <div itemscope itemtype="https://schema.org/Thing">
             <a itemprop="url" href="https://www.linkedin.com/in/alexdupre-graphoreme/" target="_blank">
-                <img src="assets/img/linkedin.png" alt="Logo de Linkedin" />
+                <img src="assets/img/linkedin.png" alt="Logo de Linkedin">
             </a>
             <a itemprop="url" href="https://twitter.com/?lang=fr" target="_blank">
-                <img src="assets/img/twitter.png" alt="Logo de Twitter" />
+                <img src="assets/img/twitter.png" alt="Logo de Twitter">
             </a>
             <a itemprop="url" href="https://github.com/AlexD004" target="_blank">
-                <img src="assets/img/github.png" alt="Logo de GitHub" />
+                <img src="assets/img/github.png" alt="Logo de GitHub">
             </a>
-        </section>
+        </div>
         <!-- Infos -->
-        <p>Dernière mise à jour le <time datetime="2023-10-19">19 octobre 2023</time></p>
+        <small>Dernière mise à jour le <time datetime="2023-10-19">19 octobre 2023</time></small>
     </footer>
 </body>
 </html>
