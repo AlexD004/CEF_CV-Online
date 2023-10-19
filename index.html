@@ -41,9 +41,9 @@
                     <h4 itemprop="name">Intitulé du poste chez nom de l'entreprise</h4>
                     <p itemscope itemtype="https://schema.org/Role">
                         Du
-                            <span itemprop="startDate">XXXX</span> 
+                            <time itemprop="startDate" datetime="2012-02-02">02 février 2012</time> 
                         au
-                            <span itemprop="endDate">XXXX</span>
+                            <time itemprop="startDate" datetime="2012-05-15">15 mai 2012</time> 
                     </p>
                     <ul itemprop="responsibilities">
                         <li>Mission 01</li>
@@ -60,11 +60,11 @@
 
                 <div itemprop="educationalCredentialAwarded">
                     <h4 itemprop="name">Intitulé du diplome/formation</h4>
-                    <p itemscope itemtype="https://schema.org/Date">
+                    <p>
                         Du
-                            <span itemprop="startDate">XXXX</span> 
+                            <time itemprop="startDate" datetime="2012-02-02">02 février 2012</time> 
                         au
-                            <span itemprop="endDate">XXXX</span>
+                            <time itemprop="startDate" datetime="2012-05-15">15 mai 2012</time> 
                     </p>
                     <div itemscope itemtype="https://schema.org/EducationalOrganization">
                         <p itemprop="name">Nom de l'école</p>
@@ -89,18 +89,46 @@
         <!-- Personnal Details -->
         <aside>
             <!-- About -->
-            <section></section>
+            <section itemscope itemtype="https://schema.org/Person">
+
+                <h3>À propos</h3>
+
+                <p itemprop="description">
+
+                </p>
+
+            </section>
             <!-- Languages -->
-            <section></section>
+            <section itemscope itemtype="https://schema.org/Person">
+
+                <h3>Langues parlées</h3>
+
+                <ul itemprop="knowsLanguage">
+                    <li>1</li>
+                    <li>1</li>
+                </ul>
+
+            </section>
             <!-- Hobbies -->
-            <section></section>
+            <section>
+
+                <h3>Centres d'intérêts</h3>
+
+                <ul itemprop="knowsAbout">
+                    <li>1</li>
+                    <li>1</li>
+                </ul>
+
+            </section>
         </aside>
     </main>
     <footer>   
         <!-- Social medias -->
-        <section></section>
-        <!-- Copywright -->
-        <p></p>
+        <section itemscope itemtype="https://schema.org/Thing">
+            <a itemprop="url" href="" target="_blank">Lien Social</a>
+        </section>
+        <!-- Copyright -->
+        <p>Copyright</p>
     </footer>
 </body>
 </html>
