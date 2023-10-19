@@ -37,3 +37,8 @@ p{
     font-family: 'Raleway', sans-serif;
     font-style: italic;
 }
+
+body{
+    width:1160px;
+    margin: 0 auto;
+}
