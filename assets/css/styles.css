@@ -1,0 +1,39 @@
+
+/* IMPORT TYPOGRAPHIES */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.woff');
+    src: url('../fonts/Raleway-Regular.ttf') format('truetype'),
+        url('../fonts/Raleway-Regular.otf') format('opentype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Bold.woff');
+    src: url('../fonts/Raleway-Bold.ttf') format('truetype'),
+        url('../fonts/Raleway-Bold.otf') format('opentype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Italic.woff');
+    src: url('../fonts/Raleway-Italic.ttf') format('truetype'),
+        url('../fonts/Raleway-Italic.otf') format('opentype');
+    font-style: italic;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
