@@ -45,6 +45,9 @@ h3{
     font-size: 1.2em;
     padding: 5px 20px;
 }
+h4{
+    font-size: 1em;
+}
 a{
     color:white;
     text-decoration: none;
@@ -82,6 +85,7 @@ header img{
 header address{
     background: #2c1d27;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
@@ -89,6 +93,7 @@ header address{
     font-family: 'Raleway', sans-serif;
     font-style: italic;
     font-size:1em;
+    text-align: left;
 }
 /* MAIN ------------------------------------------------------------- */
 main{
@@ -149,4 +154,43 @@ footer div img {
 }
 footer div img:hover {
     opacity: .4;
+}
+/* MEDIA QUERIES */
+@media (max-width: 750px) {
+    h1{
+        font-size: 4em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 3em;
+    }
+    h4{
+        font-size: 2em;
+    }
+    header section{
+        height: auto;
+    }
+    header img{
+        width: 250px;
+    }
+    header address{
+       flex-direction: column;
+       text-align: center;
+       font-size:2em
+    }
+    main{
+        flex-direction: column;
+    }
+    main p,
+    main ul{
+        font-size:3em;
+    }
+    main aside,
+    main div#jobDetails{
+        width: 100%;
+        padding: 50px;
+    }
+
 }
